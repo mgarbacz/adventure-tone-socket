@@ -2,7 +2,8 @@
 (function() {
   var clicks, io, tones;
 
-  io = require('socket.io').listen(process.env.PORT || 8888);
+  var app = require('http').createServer(function() {});
+  io = require('socket.io').listen(app);
 
   clicks = [];
 
@@ -25,5 +26,7 @@
       });
     });
   });
+
+  app.listen(process.env.PORT || 8888);
 
 }).call(this);
