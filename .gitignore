@@ -4,3 +4,6 @@
 .DS_Store
 # NPM Packages
 node_modules
+
+# Build scripts
+bin
