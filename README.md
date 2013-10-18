@@ -11,6 +11,10 @@ adventure-tone
     end, It's Adventure
     Tone!
 
+Try the [demo](http://adventure-tone.michgarbacz.com)!
+
+Check out the frontend [source code](https://github.com/mgarbacz/adventure-tone).
+
 License
 -------
 [MIT License](LICENSE)
